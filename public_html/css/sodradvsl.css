@@ -1,0 +1,160 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22.01.2017, 18:04:34
+    Author     : Администратор
+*/
+
+
+.sod-gor-sl{
+  position: relative;
+  display: inline-block ;
+  height: 35%;
+  width: 100%;
+  border: solid 1px #fff ;
+  background: linear-gradient(to bottom, #9CD4F2, #ffffff);
+
+  text-align: center;
+ 
+}
+
+.sod-gor-sl-title-bl{
+  position: relative;
+  display: inline-block ;
+  height:25px;
+  width: 98%;
+  padding:8px;
+
+  background-color: #59c7ff ;
+  color: #fff;
+  text-align: center;
+  font-style: normal;
+  font-size: 18px ;
+  font-weight: bold;
+ }
+
+ .sod-gor-sl-button-bl{
+   position: relative;
+   display: inline-block ;  
+   height:30px;
+   width: 100%;
+  
+   background: linear-gradient(to top left, #FFFBF1, #ffffff);
+
+ }
+ 
+ .sod-gor-btn{
+   position: relative;
+   display: inline-block ;  
+   width:20%;
+   margin-top: 5px;
+   margin-bottom: 5px;
+ }
+ 
+ #sod-gor-sl-btn{
+   position: relative;
+   display: inline-block ;
+   height: 15px;
+   width: 15px;
+   cursor: pointer;
+   margin-top: 1px;
+   margin-left: 1px;
+   
+ }
+ 
+ #frleftbtn1{
+   position: absolute;
+   display: inline-block ;
+   height: 20px;
+   width: 20px;
+   cursor: pointer;  
+  }
+  
+  
+  .sod-gor-sl-left-btn{
+   position: absolute;
+   display: inline-block ;
+   height: 35px;
+   width: 20px;
+   cursor: pointer;   
+   left:-20px;
+   top:45%;
+   transform: translateY(-40%);
+  
+   
+  }
+  
+  .sod-gor-sl-right-btn{
+   position: absolute;
+   display: inline-block ;
+   right: -20px;
+   height: 20px;
+   width: 20px;
+   cursor: pointer;  
+   top:45%;
+   transform: translateY(-40%);
+  }
+  
+  #sod-left-btn{
+   position: relative;
+   display: inline-block ;
+   height: 35px;
+   width: 20px;
+   cursor: pointer;  
+  }
+  
+  #sod-right-btn{
+   position: relative;
+   display: inline-block ;
+   height: 35px;
+   width: 20px;
+   cursor: pointer;    
+  }
+ 
+  
+.sod-gor-sl-block{
+  position: relative;
+  display: inline-block ;
+  height: 71%;
+  width: 90%;
+
+}
+
+.sod-gor-sl-view-bl{
+  position: relative;
+  display: block;
+  display: inline-block ;
+
+  width:100%;
+  height: auto;
+  overflow: hidden;
+
+ 
+}
+
+.sod-gor-sl-line{
+  position: relative;
+  display: inline-block ;
+  height: 100%;
+  width:100%; 
+  
+}
+
+.sod-gor-slide{
+
+  position: relative;
+  display: inline-block;
+  height:auto;
+  width: 30%;
+  margin-left: 5px;
+}
+
+.isod-gor-slide{
+  position: relative;
+  display: inline-block;
+  height: 99%;
+  width: 99%;  
+}

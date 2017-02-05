@@ -1,0 +1,143 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26.01.2017, 14:33:45
+    Author     : ADMIN
+*/
+
+.sclient-bl{
+    display:block;
+    position: relative;
+    width:100%;
+    height: auto;
+    text-align: center;
+}
+
+.sclient-bl-mat-wrap , .sclient-bl-news-wrap{
+    display:inline-block;
+    width:445px;
+    margin:5px;
+   
+    position: relative;
+    border: solid 1px grey;
+    background-color: rgba(251,251,251,0.8);
+    box-shadow: 0 0 10px rgba(33,33,33,0.5);
+}
+
+.sclient-bl-mat-title, .sclient-bl-mat-title-news{
+    display: block;
+    position: relative;
+    font-family: Verdana;
+    font-weight: bold;
+    background-color: #59c7ff;
+    font-family: Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    padding: 5px;
+    color:  white;
+    width: 98%;
+    
+}
+
+#sclient-bl-mat-bottombtn{
+     display: block;
+     position: relative;
+     background-image: url("../img/bb1.png")  ;
+     width:45px;
+     height: 20px;
+     background-size: cover;
+     margin-left: 45%;
+     margin-right: 45%;
+     cursor: pointer;
+     transition:  all 1s;
+     margin-top: 15px;
+     margin-bottom: 15px;
+}
+#sclient-bl-mat-bottombtn:hover{
+       background-image: url("../img/bb2.png")  ;
+}
+
+#sclient-bl-mat-topbtn{
+     display: block;
+     position: relative;
+     background-image: url("../img/ff1.png")  ;
+     width:45px;
+     height: 20px;
+     background-size: cover;
+     margin-left: 45%;
+     margin-right: 45%;
+     cursor: pointer;
+     transition:  all 1s;
+     margin-bottom: 15px;
+     margin-top: 15px;
+}
+
+#sclient-bl-mat-topbtn:hover{
+    background-image: url("../img/ff2.png")  ; 
+}
+
+.sclient-bl-mat-bl{
+    display:block;
+    position: relative;  
+    width:100%;
+    height: 350px; 
+     overflow: hidden;
+}
+
+.sclient-bl-mat-bl-line{
+    display:block;
+    position: relative;
+    width:100%;  
+}
+
+.sclient-bl-mat, .sc-news-bl-mat{
+    display:block;
+    position: relative;
+    width:97%;
+    height:80px; 
+    border: solid 1px #59c7ff;   
+    text-align: center;
+    text-align: left;
+    background-color: rgba(255,255,240, 0.2);
+    transition: all 1s ;
+    margin: 5px;
+    box-shadow: 0 0 10px rgba(33,33,33,0.5);
+}
+
+.sclient-bl-mat img {
+   display: inline-block;
+   position: relative; 
+   width:80px; 
+}
+
+.sc-news-bl-mat img{
+   display: inline-block;
+   position: relative; 
+   width:113px; 
+}
+
+.sclient-bl-mat a ,.sc-news-bl-mat a{
+   display: inline-block;
+   position: absolute;
+   font-family: Verdana;
+   font-size: 16px;
+   font-weight: bold;
+   color: #000;
+   text-decoration: none;
+   padding: 5px;  
+   width:70%;
+   text-align: center;
+   top:50%;
+   transform: translateY(-50%);
+   transition: all 1s ;
+}
+
+#sclient-bl-mat-1:hover > a, .sc-news-bl-mat:hover >a{
+     color: #fff; 
+}
+ 
+.sclient-bl-mat:hover ,.sc-news-bl-mat:hover {
+    background-color: #59c7ff;
+}
